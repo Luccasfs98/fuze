@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/matches_navgraph"
+    app:startDestination="@id/matchesFragment">
+
+    <fragment
+        android:id="@+id/matchesFragment"
+        android:name="com.fuze.features.matches.presentation.list.MatchesFragment"
+        android:label="Partidas"
+        tools:layout="@layout/fragment_matches" >
+        <action android:id="@+id/startDetailFragment"
+            app:popUpToSaveState="true"
+            app:enterAnim="@anim/slide_from_right"
+            app:exitAnim="@anim/slide_to_left"
+            app:popEnterAnim="@anim/slide_from_left"
+            app:popExitAnim="@anim/slide_to_right"
+            app:destination="@+id/matchDetailFragment">
+            <argument
+                android:name="matchModel"
+                app:argType="com.fuze.features.matches.domain.model.MatchModel" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/matchDetailFragment"
+        android:name="com.fuze.features.matches.presentation.detail.MatchDetailFragment">
+        <argument
+            android:name="matchModel"
+            app:argType="com.fuze.features.matches.domain.model.MatchModel" />
+    </fragment>
+</navigation>

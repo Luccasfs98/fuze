@@ -1,0 +1,16 @@
+<resources>
+    <string name="matches_text">Partidas</string>
+
+    <string name="text_error_title">Ops, erro inesperado!</string>
+    <string name="try_again">Tentar novamente</string>
+    <string name="something_wrong">Ops, algo deu errado!</string>
+    <string name="get_matches_error_internet_not_available">Não foi possível buscar as partidas, por favor verifique sua conexão com a internet e tente novamente.</string>
+    <string name="get_players_error_internet_not_available">Não foi possível buscar os jogadores, por favor verifique sua conexão com a internet e tente novamente.</string>
+    <string name="not_found_error">Estamos com problemas em nosso servidor, por favor tente novamente mais tarde.</string>
+    <string name="unauthorized_error">Estamos com problemas na autenticação com os nossos servidores, tente reinstalar o aplicativo, por favor.</string>
+    <string name="unknown_error">Erro desconhecido, por favor tente novamente mais tarde.</string>
+    <string name="service_unavailable_error">Serviço temporariamente indisponivel, por favor tente novamente mais tarde.</string>
+    <string name="empty_list_message">Experimente adicionar novos contatos!.</string>
+    <string name="empty_list_title">Sem partidas.</string>
+    <string name="empty_player_list_title">Sem jogadores.</string>
+</resources>

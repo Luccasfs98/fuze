@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_versus">VS</string>
+    <string name="text_team_image_description">Logotipo do time</string>
+    <string name="in_live">AO VIVO</string>
+    <string name="player_image_description">Imagem do jogador</string>
+</resources>
