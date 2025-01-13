@@ -1,14 +1,14 @@
 # fuze
-Aplicativo para consultas de partidas de CSGO
+Application for consultation of CSGO matches
 
 
-A aplicação segue a arquitetura MVVM somada a conceitos do SOLID. 
-Também utiliza as principais bibliotecas do Jetpack, que é a recomendação da Google para aplicativos sustentáveis e escaláveis. 
+The application follows the MVVM architecture added to SOLID concepts. 
+It also uses the main Jetpack libraries, which is Google's recommendation for sustainable and scalable applications. 
 
-O projeto é modularizado, onde o módulo app somente tem a responsabilidade de inicializar a aplicação, na MainActivity também foi utilizada a nova splash screen nativa do Android, porém somente para o Android 12 ou superior. 
+The project is modularized, where the app module only has the responsibility of initializing the application. The new native Android splash screen was also used in MainActivity, but only for Android 12 or higher. 
 
-Módulos:
-	Core: Responsável por fornecer recursos essenciais para o funcionamento do app, como configurações de injeção de dependência e de requisições para api.
-	Comom: Auxilia no fornecimento de classes utilitárias de comum acesso.
-	UI: Modulo responsável pela componentização dos layouts  cujo objetivo seria a reutilização de código e fácil manutenção.
-	matches: Módulo da funcionalidade, separado por pacotes, data, di, presentation e Domain. Com o objetivo de separar responsabilidades por camadas, seguindo o princípio de responsabilidade única e também facilitando nos futuros testes unitários e integrados.
+Modules:
+	Core: Responsible for providing essential resources for the app to function, such as dependency injection and API request configurations.
+	Comom: Assists in providing commonly accessible utility classes.
+	UI: Module responsible for the componentization of layouts whose objective would be code reuse and easy maintenance.
+	matches: Functionality module, separated by packages, data, di, presentation and Domain. With the aim of separating responsibilities by layers, following the principle of single responsibility and also facilitating future unit and integrated tests.
